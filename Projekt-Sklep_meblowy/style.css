@@ -1,0 +1,1503 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	
+	background-size: 100%;
+	background-attachment: fixed;
+	
+	margin:0 !important;
+}
+
+#zegar{
+color: #336666;
+font-size: 35px;
+text-align: center;
+
+	
+}
+#footer
+{
+	clear: both;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
+	background-color:red;
+	position: relative; top:1.9cm;
+}
+
+#container
+{
+	background-color: white;
+	width: 300px;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+}
+
+.element {
+	
+	float:left;
+	padding:20px;
+	 margin-left:2cm;
+	 
+}
+
+.element a
+{
+	
+	color:black;
+	
+}
+.element a:hover
+{
+	color:orange;
+	
+}
+.element2 {
+	
+	position: relative;left:3.4cm;
+
+	
+	 
+}
+
+.element2 a
+{
+	
+	color:black;
+	
+}
+.element2 a:hover
+{
+	color:orange;
+	
+}
+
+.obramowanie2
+{
+width:300px;
+height:350px;
+
+  transition: transform 0.3s;
+        text-align:center;
+		position: relative;left:3.4cm;
+box-shadow: 3px 3px 13px red, yellow -3px 3px 13px, 3px -3px 13px;
+}
+
+.obramowanie2:hover
+{
+	
+	transform: scale(1.1);
+}
+
+
+
+input[type=text],
+input[type=password]
+{
+	width: 300px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus
+{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	border: 2px solid #a5cda5;
+	background-color: #e9f3e9;
+	color: #428c42;
+}
+
+input[type=submit]
+{
+	width: 300px;
+	background-color: #36b03c;
+	font-size:20px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}
+
+input[type=submit]:hover
+{
+	background-color: #37b93d;
+}
+
+input::-webkit-input-placeholder
+{
+    color: #999;
+}
+input:focus::-webkit-input-placeholder
+{
+    color: #428C42;
+}
+
+input:-moz-placeholder
+{
+    color: #999;
+}
+input:focus:-moz-placeholder
+{
+    color: #428C42;
+}
+
+input::-moz-placeholder
+{
+    color: #999;
+}
+input:focus::-moz-placeholder
+{
+    color: #428C42;
+}
+
+input:-ms-input-placeholder
+{
+    color: #999;
+}
+input:focus:-ms-input-placeholder
+{
+    color: #428C42;
+}
+
+
+input[type='image'] {
+    border-top-style:inset;
+	border-bottom-style:inset;
+	border-right-style:inset;
+	border-left-style:inset;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius:20px;
+	border-bottom-left-radius:20px;
+	background-color:#DDDDDD;
+	position: relative;top:0.4cm;
+	position: relative;left:0.4cm;
+	transition: transform 0.2s;
+}
+input[type='image']:hover {
+transform: scale(1.1);
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+.obw
+{
+		width=100%;
+}
+
+.naglowek
+{
+	
+	width=100%;
+	padding: 50px 0;
+	background-color:white;
+}
+.logo
+{
+	position: relative;left:3cm;
+	position: relative;top:1cm;
+	
+}
+.szukanied
+{
+	position: relative;left:15cm;
+}
+
+
+.koszydiv
+{
+	position: relative;left:30cm;
+	position: relative;bottom:1.4cm;
+	
+}
+
+.tooltip3 {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.napisek
+{
+	text-align:center;
+	padding:1px;
+	color:blue;
+	font-size:45px;
+	border-bottom: 1px solid #CC3366;
+	margin-bottom: 30px;
+    position: relative;
+	z-index: 1;
+}
+
+.napisek h67
+{
+	
+	background: #fff;
+    padding: 0 15px;
+    position: relative;
+    top: 27px;
+	z-index: 1;
+}
+
+.tooltip3 .tooltiptext3 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #CCFFFF;
+  color: #black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -53px;
+}
+
+.tooltip3 .tooltiptext3::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip3:hover .tooltiptext3 {
+  visibility: visible;
+}
+
+.tooltip4 {
+  position: relative;
+  display: inline-block;
+  
+}
+.tooltip4 .tooltiptext4 {
+  visibility: hidden;
+  width: 120px;
+  
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -57px;
+}
+
+.tooltip4 .tooltiptext4::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 60%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip4:hover .tooltiptext4 {
+  visibility: visible;
+}
+
+
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 190px;
+  background-color: #FFE4C4;
+  color: #fff;
+  text-align: center;
+  color: black;
+  border-radius: 6px;
+  padding: 3px 0;
+  position: absolute;
+  z-index: 1;
+  top: 130%;
+  left: 50%;
+  margin-left: -103px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.tooltip2 .tooltiptext2 {
+  visibility: hidden;
+  width: 120px;
+ 
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+padding:2px;
+  
+
+  
+  z-index: 1;
+  top: -5px;
+  left: 20%;
+   
+}
+
+.tooltip2:hover .tooltiptext2 {
+  visibility: visible;
+}
+
+
+
+.pasreje
+{
+	
+
+font-size:20px;
+background-color:#EEEEEE;	
+position: relative; top:1cm;
+}
+
+
+.pasreje h888
+
+{
+		position: relative; left:2cm;
+	color:#330099;
+}
+
+.pasreje h889
+
+{
+	
+	color:#330099;
+	position: relative; left:13cm;
+}
+.Konto
+{
+	display:block;
+	display:inline-block;
+	text-decoration: none;
+	list-style-type: none;
+
+	position: relative; left:4cm;
+	
+}
+
+.Konto a
+{
+	text-decoration:none;
+	color:black;
+	background-color:#FFFFFF;
+	
+}
+.Konto a:hover
+{
+	color:yellow;
+	
+}
+.pow
+{
+	
+	font-size:20px;
+}
+.input_di2
+{
+	position: relative; left:24cm;
+	position: relative; bottom:13cm;
+}
+
+.input_di2 h811
+{
+	font-size:17px;
+	color:brown;
+}
+.pow a
+{
+	text-decoration:none;
+	color:black;
+	
+	position: relative; left:1cm;
+}
+
+.pow a:hover
+{
+	
+	color:orange;
+}
+.adminek a
+{
+	
+	display:block;
+	display:inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	color:black;
+}
+.adminek a:hover{
+	
+	color:orange;
+}
+.adminek h101
+{position: relative; top:2cm;
+	position: relative; left:4cm;
+	font-size:20px;
+}
+.adminek h102
+
+{
+	position: relative; top:2cm;
+	position: relative; left:7cm;
+	font-size:20px;
+}
+.uzyt
+{
+	font-size:20px;
+
+	
+	
+}
+.uzy2
+{
+	font-size:20px;
+}
+
+.uzyt h76
+{
+	position: relative; top:1cm;
+	position: relative; left:2cm;
+	
+}
+.uzyt h77
+{
+	position: relative; top:1cm;
+	position: relative; left:3cm;
+}
+
+
+.uzyt2 h78
+{
+	position: relative; top:0.4cm;
+	position: relative; left:12cm;
+	font-size:20px;
+	
+}
+
+.uzyt h79
+{
+		position: relative; top:1cm;
+	position: relative; left:1cm;
+	
+}
+
+.uzyt h79 a
+{
+	color:brown;
+}
+
+.uzyt h79 a:hover
+{
+	
+	color:orange;
+}
+.uzyt3 h80
+{
+		position: relative; bottom:0.2cm;
+	position: relative; left:18cm;
+	font-size:20px;
+	
+	
+}
+
+.uzyt3 h80 a
+{
+	color:brown;
+}
+
+.uzyt3 h80 a:hover
+{
+	
+	color:orange;
+}
+.Wylogowanie
+{
+	display:block;
+	display:inline-block;
+	text-decoration: none;
+	list-style-type: none;
+
+	position: relative; left:12cm;
+	
+}
+
+.pusto
+{
+	position: relative; left:1.2cm;
+	position: relative; top:1cm;
+}
+
+.pusto h43
+{
+	
+	font-size:15px;
+	color:#330033;
+}
+.pusto2
+{
+	text-align:center;
+	position: relative; top:0.7cm;
+}
+
+.wyswie14 h542
+{
+	position: relative; bottom:0.5cm;
+	position: relative; left:16cm;
+	font-size:19px;
+	
+	
+}
+.wyswie12 h555
+{
+	position: relative; top:0.7cm;
+	position: relative; left:0.7cm;
+	font-size:19px;
+}
+
+.wyswie12 h557
+{
+	position: relative; bottom:4.4cm;
+	position: relative; left:20cm;
+	font-size:19px;
+}
+.wyswie12 a
+{
+	
+tex-decoration:none;
+	color:black;
+	
+}
+
+.wyswie12 a:hover
+{
+	color:#666600;
+}
+
+.wyswie13 h556
+{
+	
+		position: relative; top:0.1cm;
+	position: relative; left:5.7cm;
+	font-size:19px;
+	
+}
+
+.pusto2
+{
+	font-size:21px;
+	color:#990000;
+	
+}
+.Wylogowanie a
+{
+	text-decoration: none;
+	color:black;
+	
+}
+.Wylogowanie a:hover
+{
+	color:#FF9900;
+}
+
+.Zakladanie
+{
+	display:block;
+	display:inline-block;
+	text-decoration: none;
+	list-style-type: none;
+
+	position: relative; left:27cm;
+	
+}
+.dzieki a
+{
+	display:block;
+	display:inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	text-align:center;
+}
+.Zakladanie a
+{
+	text-decoration: none;
+	color:black;
+	
+}
+.Zakladanie a:hover
+{
+	color:#FF9900;
+}
+input[type=number] {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  
+  
+}
+
+.input_div
+{
+	
+	position: relative; left:17cm;
+}
+.panik
+
+{
+	
+	
+	text-decoration: none;
+	list-style-type: none;
+	font-size:19px;
+
+}
+.panik a
+{
+	tex-decoration:none;
+	color:black;
+	
+}
+
+.panik h889
+{
+	position: relative; left:2cm;
+	color:#3300CC;
+}
+.Logowanie
+{
+	
+	background-size:40%;
+	display:block;
+	display:inline-block;
+	text-decoration: none;
+	list-style-type: none;
+
+	position: relative; left:29cm;
+
+}
+.Logowanie a
+{
+	text-decoration: none;
+	color:black;
+}
+.Logowanie a:hover
+{
+	color:#CC3300;
+}
+
+.Logowanie2
+{
+	position: relative; bottom:0.7cm;
+	position: relative; left:12cm;
+	
+	text-decoration: none;
+	
+
+
+
+}
+.Logowanie2 a
+{
+	text-decoration: none;
+	color:black;
+}
+.Logowanie2 a:hover
+{
+	color:#CC3300;
+}
+
+.Logowanie3
+{
+	position: relative; bottom:1.3cm;
+	position: relative; left:22cm;
+	
+	text-decoration: none;
+	
+
+
+
+}
+.Logowanie3 a
+{
+	text-decoration: none;
+	color:black;
+}
+.Logowanie3 a:hover
+{
+	color:#CC3300;
+}
+
+.sticky
+{
+	width:100%;
+	position:fixed;
+	left: 0;
+	top: 0;
+	z-index;
+	
+}
+.nav
+{ 
+	
+	z-index: 2;
+}
+
+img.zoom
+{
+	position: relative; 
+	z-index: 1;
+}
+
+ol
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	height: 40px;
+	font-size: 20px;
+	line-height: 200%;
+	display:inline-block;
+}
+
+ol a 
+{
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float: left;
+	width: 140px;
+	height: 50px;
+	
+}
+ol > li:hover
+{
+	background-color: #EBC79E;
+}
+
+ol >li:hover > a
+{
+	color: #CFB53B;
+
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+	
+	
+}
+ol > li:hover > ul
+{
+	padding: 22px 0;
+	display: block;
+	
+	
+
+}
+ol > li > ul > li
+{
+background-color:#CC9966;	
+position: relative;
+z-index: 100;
+border-top: 2px solid black;
+border-left: 2px solid black;
+border-right: 2px solid black;
+border-bottom: 1px solid black;
+}
+
+
+ol > li > ul > li:hover >a
+{
+	color:#A62A2A;
+	
+}
+
+
+
+
+.object
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	padding: 20px;
+	
+}
+.scrollTopButton {
+     width: 40px;
+     height: 47px;
+     position: fixed;
+     visibility: hidden;
+     overflow: hidden;
+     z-index: 99999999;
+     background-image: url('images/strzalka.jpg');
+     right: 30px;
+     bottom: 30px;
+     transition: all 0.5s ease-in-out;
+}
+
+.cenaobw
+{
+	
+	color:white;
+	
+
+}
+.cenaobw h5
+{
+	margin-left: 98px;
+	margin-right: 98px;
+	background-color:red;
+	font-size:20px;
+}
+.scrollTopButton.show {
+     visibility: visible;
+     cursor: pointer;
+     transition: all 0.5s ease-in-out;
+	 
+}
+.obramowanie
+{
+width:300px;
+height:350px;
+
+  transition: transform 0.3s;
+        text-align:center;
+box-shadow: 3px 3px 13px red, yellow -3px 3px 13px, 3px -3px 13px;
+}
+
+.obramowanie:hover
+{
+	
+	transform: scale(1.1);
+}
+
+.wyszukiobw
+{
+	
+	padding:40px;
+	 margin-left:2cm;
+	 font-size:19px;
+	
+	 color:black;
+	
+	
+}
+.wyszukiobw h25
+{	
+	
+	border-top-style:inset;
+	border-bottom-style:inset;
+	border-right-style:inset;
+	border-left-style:inset;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius:20px;
+	border-bottom-left-radius:20px;
+	background-color:#DDDDDD;
+}
+
+img.kosz
+{
+	
+	position: relative;bottom:15cm;
+}
+
+img.koszyk
+{
+	transition: transform 0.3s;
+}
+
+img.koszyk:hover
+{
+	transform: scale(1.1);
+}
+
+
+.textt
+{
+	float:right;
+	position: relative;right:13.6cm;
+	padding:55px;
+	font-size:25px;
+	color:#3300FF;
+}
+
+.parametryt
+{
+	float:right;
+	position: relative;right:14cm;
+	position: relative;bottom:3.4cm;
+	font-size:18px;
+	
+	
+}
+.parametryt h88
+{
+	font-size:18px;
+	color:#666633;
+}
+
+.koszykt
+{
+	
+	float:right;
+	position: relative;right:4cm;
+	position: relative;bottom:9.4cm;
+
+}
+
+
+.cenat
+{
+	
+	float:right;
+	position: relative;right:4.6cm;
+	position: relative;bottom:6.4cm;
+	background-color:red;
+	color:white;
+	font-size:45px;
+	border-radius: 10px 5px;
+}
+
+.ilosct
+{
+	float:right;
+	position: relative;right:5.6cm;
+	position: relative;bottom:14.4cm;
+	z-index: 1;
+	
+	
+}
+
+.ilosct h123
+{
+	font-size:25px;
+	color:#FF3366;
+	z-index: 1;
+}
+.ilosct h124
+{
+	font-size:15px;
+	color:#FF3366;
+	z-index: 1;
+}
+.opist
+{
+	
+	
+	position: relative; top:5cm;
+	position: relative;left:2.6cm;
+	z-index: 1;
+	
+}
+.opist h125
+{
+	font-size:25px;
+	color:#FF3366;
+	z-index: 1;
+	
+}
+
+
+.wyswie15 h542
+{
+	position: relative;bottom:1.1cm;
+	position: relative;left:21cm;
+	font-size:19px;
+}
+.los
+{
+	position: relative;bottom:2.5cm;
+	position: relative;left:29cm;
+}
+
+
+.datat
+{
+	position: relative; top:1cm;
+	
+		position: relative;left:13.6cm;
+	z-index: 1;
+	
+}
+
+
+.prome
+{
+	text-align:center;
+}
+.datat h129
+{
+	
+	font-size:25px;
+	color:orange;
+	
+}
+
+.regulaminek
+{
+	background-color:#BBBBBB;
+	text-align:left;
+	
+}
+
+.regulaminek h55
+{
+font-size:19px;
+	color:#330000;
+}
+
+.info
+{
+	
+	padding:20px;
+	background-color:#444444;
+	position: relative; top:1.9cm;
+	border-bottom-style: solid;
+	clear: both;
+	
+}
+
+.info h410
+{
+	
+	position: relative;left:18.9cm;
+	position: relative; top:1.7cm;
+	color:white;
+	font-size:19px;
+}
+
+.info h411 a
+{
+	
+	color:white;
+	text-decoration:none;
+	position: relative;left:4.4cm;
+}
+
+.info h411{
+	
+	position: relative;left:2.9cm;
+	font-size:17px;
+	color:#009933;
+	position: relative; bottom:1.2cm;
+}
+.texto
+{
+	font-size:18px;
+	position: relative;left:1.6cm;
+}
+.godzko
+{
+	font-size:18px;
+	text-align:center;
+	position: relative; bottom:1.9cm;
+	
+	
+}
+.mapa
+{
+	text-align:center;
+	position: relative;left:1.6cm;
+}
+.telefono
+{
+	font-size:18px;
+	float:right;
+	position: relative; bottom:3.7cm;
+	position: relative;right:1.6cm;
+}
+
+
+.wyszukiobwzle
+{
+	
+	font-size:20px;
+	
+	position: relative; bottom:1.2cm;
+	position: relative;left:2.9cm;
+	
+}
+.wyszukiobwzle h655
+{
+	color:#3333FF;
+	
+}
+
+
+.koinfo
+{
+	
+	font-size:18px;
+	position: relative; top:1cm;
+	position: relative;left:1.2cm;
+}
+
+.koinfo h28
+
+{
+	color:#CC0033;
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 1;
+  padding:40px;
+	position: relative;left:4cm;
+}
+
+#myImg:hover {opacity: 0.7;z-index: 1;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 400px;
+  z-index: 1;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  z-index: 1;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  z-index: 1;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+  z-index: 1;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+  z-index: 1;
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
+
+#kontener {
+	width: 100%;
+	padding: 15px 0;
+	z-index: 2;
+	text-align:center;	}
+#menu {z-index: 2;display: table; padding: 0 10px 0; margin: 0 auto; overflow: hidden; font-size: 14px; background: #242424;}
+#menu li {z-index: 2;list-style-type: none; margin: 0 auto; float: left; }
+#menu li:hover {background: #404040;z-index: 2;}
+#menu > li
+{
+	float: left;
+	width: 140px;
+	height: 30px;
+	z-index: 2;
+}
+#menu li a {display: block; color: silver; text-decoration: none; padding: 7px 10px 7px;z-index: 2;}
+#menu li a:hover {background: #404040; color: white;z-index: 2;}
+#menu li li a {width: 160px;z-index: 2;}
+#menu li ul {overflow: hidden; display: none; background: #242424;z-index: 2;}
+#menu li:hover ul {position: absolute; padding: 0; display: block; width: 160px;z-index: 2;}
+
+/*ANIMACJA - tylko CSS3*/
+#menu *:hover {transition: 0.3s ease-in;z-index: 2;}
+
+/*ZAOKRĄGLONE ROGI - tylko CSS3*/
+#menu {border-radius: 3px;z-index: 2;}
+#menu li ul {border-radius: 0 0 3px 3px;z-index: 2;}
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+position: relative; top:0.7cm;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #009900;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #FF0000;
+  font-size: 22px;
+  position: relative;top:14cm;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative; top:0.4cm;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+/* Slideshow container */
+.slideshoww-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+position: relative; top:0.7cm;
+}
+
+/* Next & previous buttons */
+.prevv, .nextt {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #009900;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.nextt {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prevv:hover, .nextt:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Fading animation */
+.fades {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prevv, .nextt {font-size: 11px}
+}
+
+
