@@ -1,2 +1,2 @@
 # Project-Aplikacja_internetowa-Sklep-Meblowy
-Aplikacja internetowa obsługująca sklep meblowy
+Internet application that supports a furniture shop
